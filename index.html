@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Malakai's Portfolio</title>
   <link rel="stylesheet" href="style.css" />
-  <script src="script.js" defer></script>
 </head>
 <body>
+ 
   <header>
     <h1>Welcome to Malakai's Portfolio</h1>
     <nav>
@@ -16,18 +17,39 @@
     </nav>
   </header>
 
-  <section id="Contact">
+  <section id="about">
+  <h2>About Me</h2>
+  <p>
+    My name is Malakai K. Im a beginner developer studying computer science at Dalhousie University. 
+    My goal in the near future is to become a full-stack developer to help companies with any of their coding needs. 
+    Here are some of my beginner projects that help me further develop my skills.
+  </p>
+</section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+
+  <div class="project">
+    <img src="Images/joke-preview.png" alt="Screenshot of Joke Generator" />
+    <h3>Joke Generator</h3>
+    <p>A fun javascript game that randomly genrates jokes with custome styles and randomized punchlines. </p>
+    <a href="joke-generator/index.html" target="_blank">View Project</a>
+  </div>
+
+  <section id="contact">
     <h2>Contact Me</h2>
     <form>
-        <input type="text" placeholder="Your name" required/>
-        <input type="email" placeholder="Your email" required/>
-        <textarea placeholder="Your Message"></textarea>
-        <button type="submit">Send</button>
+      <input type="text" placeholder="Your name" required />
+      <input type="email" placeholder="Your email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
     </form>
   </section>
 
   <footer>
     <p>© 2025 Malakai</p>
   </footer>
-  </body>
-  </html>
+
+  <script src="script.js"></script>
+</body>
+</html>
